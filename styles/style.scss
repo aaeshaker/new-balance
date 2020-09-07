@@ -1,0 +1,895 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*------------------ Global ----------------*/
+.anchor {
+    text-decoration: none;
+    color: #fc052a;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    &:hover {
+        text-decoration: none;
+        color: #fc052a;
+    }
+}
+
+/*---------x-------- Global -------x--------*/
+
+
+/*------------------ Home ----------------*/
+.home {
+    background-image: linear-gradient(#e5e5e5, white);
+
+    .container {
+        >img {
+            width: 243px;
+            margin: auto;
+            display: block;
+            padding-top: 150px;
+        }
+
+        .text1 {
+
+            margin-top: 60px;
+
+            h4 {
+                font-family: Century Gothic, sans-serif;
+                letter-spacing: 4px;
+                color: #999999;
+                line-height: 1.1;
+                font-weight: 400;
+            }
+
+            h1 {
+                font-weight: 400;
+                font-size: 94px;
+                line-height: 1.1;
+                font-family: 'Oswald', sans-serif;
+            }
+
+            p {
+                color: #808080;
+                font-size: 18px;
+            }
+        }
+
+        .white_shoes {
+
+            img {
+                width: 750px;
+                margin-left: -92px;
+                margin-top: 82px;
+            }
+        }
+    }
+}
+
+/*--------x--------- Home ---------x------*/
+
+/*------------------ Second Section ----------------*/
+.second {
+
+    h4 {
+        text-transform: uppercase;
+        color: white;
+        font-size: 1.25rem;
+        line-height: 1.2;
+        font-family: Century Gothic, sans-serif;
+        font-weight: 700;
+        letter-spacing: 4px;
+        padding-bottom: 34px;
+        z-index: 11;
+    }
+
+    .post-wrapper {
+        overflow: hidden; 
+        /*to hide the zooming of background and
+        get out of the borders*/
+    }
+
+    .post-1,
+    .post-2,
+    .post-3,
+    .post-4,
+    .post-5 {
+        height: 75vh;
+        background-repeat: no-repeat;
+        // background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        position: relative;
+        transition: all 1s ease;
+
+        &:hover {
+            transform: scale(1.2);
+            z-index: 11;
+        }
+    }
+
+    .post-1 {
+        background-image: url(../assets/img/running.jpg);
+    }
+
+    .post-2 {
+        background-image: url(../assets/img/studio.jpg);
+    }
+
+    .post-3 {
+        background-image: url(../assets/img/lifestyle.jpg);
+
+    }
+
+    .post-4 {
+        background-image: url(../assets/img/training.jpg);
+
+    }
+
+    .post-5 {
+        background-image: url(../assets/img/cycling.jpg);
+
+    }
+
+    .row {
+        justify-content: center;
+    }
+
+    .overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}
+
+/*--------x--------- Second Section ---------x------*/
+
+/*------------------ Third Section ----------------*/
+.third {
+    background-image: url(../assets/img/thirdsection.jpg);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 77vh;
+
+    .overlay {
+        display: none;
+    }
+
+    .classic {
+        text-align: left;
+        padding: 64px 88px 0px 17px;
+        color: white;
+
+        h4 {
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            font-family: Century Gothic, sans-serif;
+            font-weight: 700;
+            letter-spacing: 4px;
+            line-height: 1.2;
+        }
+
+        h1 {
+            font-weight: 400;
+            font-size: 45px;
+            line-height: 1.1;
+            font-family: Ubuntu, sans-serif;
+            padding: 18px 0px;
+        }
+
+        p {
+            font-size: 19px;
+            padding-bottom: 20px;
+        }
+    }
+}
+
+/*--------x--------- Third Section ---------x------*/
+
+/*------------------ About Section ----------------*/
+.about {
+    background-image: linear-gradient(#e5e5e5, white);
+    padding: 90px 0px 78px 0px;
+
+    h1 {
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 1.1;
+        font-family: Ubuntu, sans-serif;
+        padding: 14px 0px;
+    }
+
+    p {
+        color: #808080;
+        font-size: 17px;
+        padding-bottom: 20px;
+    }
+}
+
+/*--------x--------- About Section ---------x------*/
+
+/*------------------ Collection Section ----------------*/
+.collection {
+
+    h4 {
+        text-transform: uppercase;
+        color: #808080;
+        font-size: 1.15rem;
+        line-height: 1.2;
+        font-family: Century Gothic, sans-serif;
+        font-weight: 700;
+        letter-spacing: 4px;
+        padding-bottom: 38px;
+    }
+
+    p {
+        color: #111111;
+        font-size: 17px;
+        position: absolute;
+    }
+
+    .post-1,
+    .post-2,
+    .post-3,
+    .post-4,
+    .post-5,
+    .post-6,
+    .post-7,
+    .post-8 {
+        height: 78vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        position: relative;
+    }
+
+    .post-1 {
+        background-image: url(../assets/img/01.jpg);
+    }
+
+    .post-2 {
+        background-image: url(../assets/img/02.jpg);
+    }
+
+    .post-3 {
+        background-image: url(../assets/img/03.jpg);
+    }
+
+    .post-4 {
+        background-image: url(../assets/img/04.jpg);
+    }
+
+    .post-5 {
+        background-image: url(../assets/img/05.jpg);
+    }
+
+    .post-6 {
+        background-image: url(../assets/img/06.jpg);
+    }
+
+    .post-7 {
+        background-image: url(../assets/img/07.jpg);
+    }
+
+    .post-8 {
+        background-image: url(../assets/img/08.jpg);
+    }
+}
+
+/*--------x--------- Collection Section ---------x------*/
+
+/*------------------ Middle Section ----------------*/
+.middle {
+    background-image: url(../assets/img/middle-section.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/*--------x--------- Middle Section ---------x------*/
+
+/*------------------ Women Section ----------------*/
+.women {
+
+    .background {
+        background-image: url(../assets/img/pink-shoes.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .wsection {
+        background-image: linear-gradient(#e5e5e5, white);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 50%;
+        text-align: center;
+
+        h4 {
+            text-transform: uppercase;
+            color: #808080;
+            font-size: 1.4rem;
+            line-height: 1.2;
+            font-family: Century Gothic, sans-serif;
+            font-weight: 700;
+            letter-spacing: 4px;
+            padding: 24px 0px 5px 0px;
+        }
+
+        h1 {
+            font-weight: 400;
+            font-size: 31px;
+            line-height: 1.1;
+        }
+
+        p {
+            color: #808080;
+            font-size: 15px;
+            padding: 0px 60px;
+        }
+
+    }
+
+    .background-2 {
+        background-image: url(../assets/img/pshoes.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 50%;
+    }
+}
+
+/*--------x--------- Women Section ---------x------*/
+
+/*------------------ Run Section ----------------*/
+.run {
+    background-image: linear-gradient(#e5e5e5, white);
+    text-align: center;
+
+    h1 {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 1.1;
+        padding-top: 30px;
+    }
+
+    p {
+        color: #808080;
+        font-size: 16px;
+        padding: 7px 60px;
+    }
+
+    a {
+        display: block;
+        padding-top: 8px;
+        padding-bottom: 50px;
+    }
+}
+
+/*--------x--------- Run Section ---------x------*/
+
+/*------------------ Pastel Section ----------------*/
+.pastel {
+    .post-1 {
+        background-image: linear-gradient(#e5e5e5, white);
+        text-align: center;
+        padding-top: 80px;
+
+        h1 {
+            font-weight: 500;
+            font-size: 45px;
+            line-height: 1.1;
+            padding: 84px 50px 0px 50px;
+        }
+
+        p {
+            color: #808080;
+            font-size: 16px;
+            padding: 16px 30px 6px 30px;
+        }
+
+        a {
+            display: block;
+            padding: 0px 0px 100px 0px;
+        }
+    }
+
+    .post-2 {
+        background-image: url(../assets/img/100.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .post-3 {
+        background-image: url(../assets/img/101.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+}
+
+/*--------x--------- Pastel Section ---------x------*/
+
+/*------------------ last Section ----------------*/
+.last {
+    background-image: url(../assets/img/last.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+
+    p {
+        font-size: 17px;
+        padding: 30px 74px 25px 0px;
+    }
+}
+
+/*--------x--------- last Section ---------x------*/
+
+/*------------------ Footer ----------------*/
+footer {
+
+    .text {
+        background-color: #333333;
+        padding: 35px 0px 20px 0px;
+        display: flex;
+        justify-content: center;
+
+        a {
+            text-decoration: underline;
+            color: #e6e6e6;
+
+            &:hover {
+                color: #e6e6e6;
+                text-decoration: none;
+            }
+        }
+
+        p {
+            color: #e6e6e6;
+        }
+    }
+}
+
+/*--------x--------- Footer ---------x------*/
+
+/*------------------ Responsive ----------------*/
+
+/*-----------------Mobile--------------------*/
+@media only screen and (max-width : 767px) {
+    .home {
+        margin-bottom: 20px;
+
+        .container {
+
+            >img {
+                padding-top: 115px;
+            }
+
+            .text1 {
+                margin-top: 60px;
+                text-align: center;
+
+                h1 {
+                    font-size: 60px;
+                }
+
+                p {
+                    color: #808080;
+                    font-size: 18px;
+                    padding: 16px 0px;
+                }
+            }
+
+            .white_shoes {
+
+                img {
+                    width: 100%;
+                    margin-left: 0;
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+
+    .second {
+
+        .post-1,
+        .post-2,
+        .post-3,
+        .post-4,
+        .post-5 {
+            margin-bottom: 20px;
+        }
+    }
+
+    .third {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        height: auto;
+        padding: 35px 0px;
+
+        .overlay {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+            display: block; //to cancel display none
+        }
+
+        .classic {
+            text-align: center;
+            padding: 0;
+
+            h4 {
+                font-size: 20px;
+            }
+
+            h1 {
+                font-size: 40px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .about {
+        h1 {
+            padding-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            padding: 0px 15px 20px 15px;
+            text-align: justify;
+        }
+    }
+
+    .collection {
+
+        .post-1,
+        .post-2,
+        .post-3,
+        .post-4,
+        .post-5,
+        .post-6,
+        .post-7,
+        .post-8 {
+            margin-bottom: 20px;
+        }
+
+    }
+
+    .middle {
+        margin-bottom: 20px;
+    }
+
+    .women {
+
+        .background {
+            margin-bottom: 20px;
+        }
+
+        .wsection {
+            height: auto;
+            margin-bottom: 25px;
+
+            h1 {
+                font-size: 35px;
+                padding: 0px 15px;
+            }
+
+            p {
+                font-size: 15px;
+                padding: 13px 22px;
+                text-align: justify;
+            }
+
+        }
+
+        .background-2 {
+            height: 50vh;
+            margin-bottom: 20px;
+        }
+    }
+
+    .pastel {
+
+        .post-2,
+        .post-3 {
+            margin-bottom: 20px;
+        }
+
+        .post-1 {
+            h1 {
+                padding: 0;
+            }
+        }
+    }
+
+    .last {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .overlay {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        p {
+            font-size: 22px;
+            padding: 0px;
+            color: white;
+            text-align: center;
+        }
+    }
+}
+
+/*--------x---------- Mobile ----------x--------*/
+
+/*-------------------- iPad & ipad Pro --------------------*/
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+    .home {
+        .container {
+
+            .text1 {
+
+                h1 {
+                    font-size: 75px;
+                }
+
+                h4 {
+                    font-size: 28px;
+                }
+
+                p {
+                    font-size: 25px;
+                }
+            }
+
+            .white_shoes {
+                img {
+                    width: 720px;
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+
+    .second {
+
+        h4 {
+            font-size: 2.2rem;
+        }
+
+        .post-1,
+        .post-2,
+        .post-3,
+        .post-4,
+        .post-5 {
+            margin-bottom: 20px;
+        }
+    }
+
+    .third {
+        height: 65vh;
+        margin-bottom: 20px;
+        position: relative;
+
+        .overlay {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+            display: block; //to cancel display none
+        }
+
+        .classic {
+
+            h4 {
+                font-size: 30px;
+            }
+
+            h1 {
+                font-size: 50px;
+            }
+
+            p {
+                font-size: 30px;
+            }
+
+            a {
+                font-size: 23px;
+            }
+        }
+    }
+
+    .about {
+
+        p {
+            text-align: justify;
+            padding: 0px 15px 15px 15px;
+            font-size: 22px;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        a {
+            font-size: 21px;
+        }
+    }
+
+    .collection {
+
+        .post-1,
+        .post-2,
+        .post-3,
+        .post-4,
+        .post-5,
+        .post-6,
+        .post-7,
+        .post-8 {
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            font-size: 27px;
+        }
+
+        p {
+            font-size: 26px;
+        }
+
+    }
+
+    .middle {
+        margin-bottom: 20px;
+    }
+
+    .women {
+
+        .background {
+            margin-bottom: 20px;
+        }
+
+        .wsection {
+            height: auto;
+            margin-bottom: 25px;
+            padding: 15px 20px;
+
+            h1 {
+                font-size: 40px;
+                padding: 0px 15px;
+            }
+
+            p {
+                font-size: 22px;
+                padding: 13px 22px;
+                text-align: justify;
+            }
+
+            h4 {
+                font-size: 24px;
+            }
+
+            a {
+                font-size: 22px;
+            }
+        }
+
+        .background-2 {
+            height: 50vh;
+            margin-bottom: 20px;
+        }
+    }
+
+    .run {
+        padding: 10px 0px;
+
+        h1 {
+            font-size: 50px;
+        }
+
+        p {
+            font-size: 28px;
+        }
+
+        a {
+            font-size: 22px;
+        }
+    }
+
+    .pastel {
+        .post-1 {
+            padding-top: 25px;
+            padding-bottom: 30px;
+
+            h1 {
+                font-size: 50px;
+            }
+
+            p {
+                font-size: 26px;
+            }
+
+            a {
+                font-size: 22px;
+                padding: 30px 0px;
+            }
+        }
+
+        .post-2,
+        .post-3 {
+            margin-bottom: 20px;
+        }
+    }
+
+    .last {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .overlay {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        p {
+            font-size: 36px;
+            padding: 0px;
+            color: white;
+            text-align: center;
+        }
+    }
+
+    footer {
+
+        .text {
+
+            padding: 50px 0px 50px 0px;
+
+            a {
+                font-size: 25px;
+            }
+
+            p {
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+/*--------x----------- iPad & ipad Pro ---------x--------*/
+
+/*--------x--------- Responsive ---------x------*/
